@@ -1,1 +1,34 @@
-Hello this is me learning
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <title> Penguin </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: lightsteelblue;
+        }
+    </style>
+</head>
+
+<body>
+ Im craving pizza
+</body>
+
+<script>
+var request = new Request('https://icanhazdadjoke.com/', {
+    method: 'GET',
+    headers: {'Accept': 'application/json'}
+}).then(function(r) {
+    console.log(r)
+});
+
+</script>
+
+
+</html>
+
